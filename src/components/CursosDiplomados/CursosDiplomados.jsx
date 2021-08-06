@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-function Diplomados(){
+function CursosDiplomados(){
     return(
         
    
@@ -26,4 +26,4 @@ function Diplomados(){
     )
 }
 
-export default Diplomados;
+export default CursosDiplomados;
