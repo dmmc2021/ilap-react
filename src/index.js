@@ -9,10 +9,9 @@ import Contacto from "./components/Contacto/Contacto.jsx"
 import Social from "./components/Social/Social.jsx"
 import CrearNoticia from "./components/Menu/CrearNoticia.jsx"
 import Container from "./components/Container/Container.jsx"
-import Cursos from "./components/Cursos/Cursos.jsx"
-/*mport Selectcurso from "./components/Selectcurso/Selectcurso.jsx"*/
-import CargaCurso from "./components/CargaCurso/CargaCurso.jsx"
+import ActzCatalogo from "./components/Menu/ActzCatalogo.jsx"
 import Login from "./components/Menu/Login.jsx"
+import CursoDiplo from "./components/CursoDiplo/CursoDiplo.jsx"
 
 import "./css/estilo.css";
 import './css/bootstrap.min.css';
@@ -21,4 +20,4 @@ import "./firebase/firebase"
 
 const divRoot = document.querySelector("#root");
 
-ReactDOM.render([<Header />,<Impulsa />, <Ofrecemos />, <Cursos />, <Galeria />, <CrearNoticia />, <Container />, <Inscribete />, <Contacto />, <Social />, <CargaCurso />, <Login />], divRoot)
+ReactDOM.render([<Header />,<Impulsa />, <Ofrecemos />, <CursoDiplo />, <Galeria />, <Container />, <Inscribete />, <Contacto />, <Social />, <Login />, <CrearNoticia />, <ActzCatalogo />], divRoot)

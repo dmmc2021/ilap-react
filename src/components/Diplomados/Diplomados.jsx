@@ -6,18 +6,18 @@ function Diplomados(){
     return(
         
    
-    <div>
+    <div className="diplo">
         <h3>DIPLOMADOS</h3>
         <div className="lista-dip">
-            <ul>
-                <li>Finanzas Cuantitativas</li>
-                <li>Gerencia Bancaria</li>
-                <li>Gerencia Integral de Crédito</li>
-                <li>Gestion del Presupuesto Publico</li>
-                <li>Gestion Integral del Conocimiento y Talento Humano</li>
-                <li>Gestion Integral de Riesgo en Instituciones Financieras</li>
-                <li>Instituciones Financieras</li>
-                <li>Seguridad y Salud Laboral</li>
+            <ul className="list-group">
+                <li className="list-group-item">Finanzas Cuantitativas</li>
+                <li className="list-group-item">Gerencia Bancaria</li>
+                <li className="list-group-item">Gerencia Integral de Crédito</li>
+                <li className="list-group-item">Gestion del Presupuesto Publico</li>
+                <li className="list-group-item">Gestion Integral del Conocimiento y Talento Humano</li>
+                <li className="list-group-item">Gestion Integral de Riesgo en Instituciones Financieras</li>
+                <li className="list-group-item">Instituciones Financieras</li>
+                <li className="list-group-item">Seguridad y Salud Laboral</li>
             </ul>
         </div>
     </div>

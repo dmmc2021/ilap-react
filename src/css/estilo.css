@@ -295,6 +295,33 @@ nav{
     margin: 20px auto;
 }
 
+.cur-dip{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    background: #e2a266;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.diplo > h3{
+    color: #4f44b1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contenedor-cursos > h3{
+    color: #4f44b1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.contenedor-cursos{
+    padding-bottom: 50px;
+}
+
 /*GALERIA*/
 
  .galeria{
@@ -480,6 +507,7 @@ input[type="submit"]:hover{
     text-align: center;
     padding-top: 15px;
 }
+
 
 
  /*FOOTER*/
@@ -675,18 +703,47 @@ select > option{
 }
 
 .caja-login{
-    width: 80%;
+    width: 60%;
     height: 400px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
     background: lightgray;
+    border-radius: 30px;
 }
 
 .login-input{
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.crear-n{
+    background: lightblue;
+   border-radius: 30px;
+}
+
+.tit-crear-n > h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.actz-cur{
+    background: #f1c49a;
+    width: 53%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+}
+
+.actz-cur h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 /*RESPONSIVE*/

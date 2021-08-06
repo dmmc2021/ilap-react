@@ -55,8 +55,8 @@ const CrearNoticia = () => {
   };
   return (
     <section className='info-last' >
-      <div className='contenedor' >
-        <div>
+      <div className="contenedor crear-n"  >
+        <div className="tit-crear-n">
           <h2>Formulario para la creación de noticias</h2>
         </div>
         <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>

@@ -51,10 +51,10 @@ const ActzCatalogo = () => {
       
 };
   return (
-    <section className='info-last' >
+    <section className='actz-cur' >
       <div className='contenedor' >
         <div>
-          <h2>pruebas cargas de cursos</h2>
+          <h2>Pruebas actualizacion de cursos</h2>
         </div>
         <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
           <Form>
